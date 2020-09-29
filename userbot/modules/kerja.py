@@ -5,140 +5,6 @@ from time import sleep
 from userbot import CMD_HELP
 from userbot.events import register
 
-@register(outgoing=True, pattern='^.listlive(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("LIST HARGA **dessstore**\n"
-			 f"=========================\n"
-			 f"LIVE RESULT\n"
-			 f"\n"
-			 f"50+ RESULT : 200.000\n"
-			 f"99+ RESULT : 400.000\n"
-			 f"=========================\n"
-			 f"@dess21")
-
-
-@register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("UNTUK DI INGAT SAJA\nBUAT YANG BLM TAU BERAPA LAMA PROSES UNREDFLAG ."
-f"\n\nBIASANYA PALING CEPAT ADALAH 1 MALAM DAN PALING LAMA ADALAH 1 - 3 HARI\nTHANKS BOSQU")
-	
-@register(outgoing=True, pattern='^.1(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("Silahkan kirim email anda\n"
-			 f"Dan request tampilan yang ingin anda gunakan\n"
-			 f"List Tampilan : [Klik Disini](https://jefanya.com)")
-	
-@register(outgoing=True, pattern='^.2(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`Ok beri waktu beberapa menit, saya akan membuat kan web phising sesuai dengan tampilan yang anda request`")
-	
-
-	
-@register(outgoing=True, pattern='^.3(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("Website Phising telah dibuat\n\n"
-			 f"Garansi : Full\n"
-			 f"Note : `Garansi tidak akan habis sebelum durasi website telah habis, dan ketika durasi di perpanjang maka garansi akan ikut diperpanjang`\n"
-			 f"Usahakan untuk komplain / menggunakan garansi maka sertakan ORDER ID\n"
-			 f"Order ID ada di data phising, dan itu sangatlah berguna")
-
-@register(outgoing=True, pattern='^.whm(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("Berikut Adalah List Harga dari **WHM** \n"
-			 f"**Whm Mini**\n"
-			 f"`Harga :` 40.000/1 Month\n"
-			 f"`Create 15 cPanel`\n"
-			 f"`10GB Web Space`\n"
-			 f"`Unlimited Bandwith`\n"
-			 f"`Free SSL Certificate`\n"
-			 f"\n"
-			 f"**Whm Medium**\n"
-			 f"`Harga :` 50.000/1 Month\n"
-			 f"`Create 25 cPanel`\n"
-			 f"`15GB Web Space`\n"
-			 f"`Unlimited Bandwith`\n"
-			 f"`Free SSL Certificate`\n"
-			 f"\n"
-			 f"**Whm Extra**\n"
-			 f"`Harga :` 60.000/1 Month\n"
-			 f"`Create 40 cPanel`\n"
-			 f"`20GB Web Space`\n"
-			 f"`Unlimited Bandwith`\n"
-			 f"`Free SSL Certificate`\n"
-			 f"\n"
-			 f"**Whm Super**\n"
-			 f"`Harga :` 70.000/1 Month\n"
-			 f"`Create 50 cPanel`\n"
-			 f"`25GB Web Space`\n"
-			 f"`Unlimited Bandwith`\n"
-			 f"`Free SSL Certificate`\n"
-			 f"Dukung saya dengan cara join di channel saya! [klik disini](http://t.me/Jejakcheat14)")
-	
-@register(outgoing=True, pattern='^.tam(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`Tampilan cek di :` https://jeenoreal.com/")
-	
-@register(outgoing=True, pattern='^.proses(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("OK, Saya Akan Mengirimkan result dengan cara LIVE. Jadi nnti kalau sudah proses atau sudah giliranmu akan saya beritahu ~ Terimakasih \n"
-			 f"Info Lebih Lanjut! [klik disini](http://t.me/Jejakcheat14)")
-
-@register(outgoing=True, pattern='^.mwhm(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("Daftar harga **M.WHM**\n"
-			 f"MINI : 80.000\n"
-			 f"MEDIUM : 100.000\n"
-			 f"EXTRA : 120.000\n"
-			 f"SUPER : 150.000\n"
-			 f"Info Lebih Lanjut! [klik disini](http://t.me/Jejakcheat14)")
-
-
-@register(outgoing=True, pattern='^.full(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("Mohon Maaf, Untuk sekarang result live **FULL** \n"
-			 f"Info Lebih Lanjut! [klik disini](http://t.me/Jejakcheat14)")
-
-
-@register(outgoing=True, pattern='^.jual(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("OPEN WEBSITE PHISING\n"
-			f"M.WHM, WHM, CPANEL\n"
-			 f"\n\n`Send email lancar\nada SSL atau gembok ijo\nBisa request tampilan\nDan masih banyak lagi!!`\n\nHarga?\n\nDomain : Rp. 100.000 `Bisa Request Nama Web`\n"
-			 f"Domain : Rp. 50.000 `Tidak bisa request nama web alias yang nentuin penjual`\n"
-			 f"Subdomain : Rp. 20.000 `Tidak bisa request apapun kecuali request tampilan website`\n\n"
-			 f"Payment via : BCA, OVO, TELKOMSEL\n"
-			 f"Mau lihat tampilan web ? Yuk ke demo [klik di sini](https://senturypanel.com/)\n\n"
-			 f"Chat ? [Jefanya Efandchris](http://t.me/Jejakcheat)\n"
-			 f"Join channel telegram yuk! [klik disini](http://t.me/Jejakcheat14)")
-
-
-@register(outgoing=True, pattern='^.demo(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://jefanya.com) \n#SenturyBot")
 
 
 # Create by myself @JejakCheat
@@ -168,16 +34,6 @@ async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
 	await typew.edit("`Maaf baru online, ada apa bos?` \n#AbucuyyBot")
-	
-	# Create by myself @JejakCheat
-
-
-# Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.perbedaan(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`Saya jelaskan untuk perbedaan domain dan subdomain .\n\nDomain (pubg.com) **langsung tidak ada tambahan sama sekali\n\nSubdomain ( blablabla.pubg.com ) **ada Tambahan di depan domainnya .\n\nBot By : [#Jefanya](t.me/JejakCheat)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.BRI(?: |$)(.*)')
@@ -217,7 +73,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`OVO : `082338985581 `A/N GALUH BACHTI PRAYOGA ` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#AbucuyyBot](t.me/ACC_Store_PUBGM)")
+	await typew.edit("`OVO : `087748305295 `A/N MUHAMMAD ARIF FADILLAH ` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#BabonsBot]
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.DANA(?: |$)(.*)')
@@ -249,29 +105,6 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("`Kirim Email + Tampilan yang sudah di request di atas` (Sesuai nama di demo.senturypanel.xyz) \nBot By : [#JefanyaBot](t.me/JejakCheat)")
 
-
-# Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.listweb(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`UPDATE HARGA HARI INI` \n\nDOMAIN : 120.000 (Bisa Request Nama Web)\nDOMAIN : 70.000 (Tidak bisa request nama web)\nSUBDOMAIN : 20.000 (SELAIN PULSA) \nSUBDOMAIN : 30.000 (Via Pulsa) \n\nBot By : [#BangDessBot](t.me/JejakCheat)")
-
-
-# Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.bug(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`JIKA ADA ERROR ATAU BUG DI TAMPILAN PHISING KALIAN TINGGAL SURUH TEMAN KALIAN UNTUK MEMBUKA WEB KALIAN ITU \n\nSyarat : \n1. BEDA HP \n2. BEDA SINYAL \n3. BELUM PERNAH BUKA WEB ITU`\nBot By : [#JefanyaBot](t.me/JejakCheat)")
-
-
-# Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.exp(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("**EXP TIME !!** \nMaaf bos, phising saya matikan atau saya alihkan ke `exp.senturypanel.xyz` \nDikarenakan Sudah melewati tanggal kadaluarsa \nDan jika mau perpanjang silahkan balas pesan ini  \n Dan jika tidak ingin perpanjang abaikan pesan ini \nBot By : [#JefanyaBot](t.me/JejakCheat14)")
 
 
 # Create by myself @JejakCheat
