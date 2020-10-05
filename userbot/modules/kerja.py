@@ -223,7 +223,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`BCA : `6910444130 `A/N GUNADI` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#BangAgunBot](t.me/Abucuyy)")
+	await typew.edit("`BCA : `3020713967 `A/N supriyandi sanusi` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#UcihaBot](t.me/Abucuyy)")
 
 
 # Create by myself @JejakCheat
@@ -247,14 +247,14 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`OVO : `081290904460 `A/N JAJANG WAHYUDIN` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
+	await typew.edit("`OVO : `082119130500 `A/N supriyandi sanusi` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.DANA(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `082215602440 `A/N JAJANG WAHYUDIN` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
+	await typew.edit("`DANA : `082119130500 `A/N supriyandi sanusi` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.bcaj(?: |$)(.*)')
