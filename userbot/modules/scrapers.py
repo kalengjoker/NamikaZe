@@ -414,7 +414,7 @@ async def imdb(e):
         await e.edit("Plox enter **Valid movie name** kthx")
 
 
-@register(outgoing=True, pattern=r"^.trt(?: |$)([\s\S]*)")
+@register(outgoing=True, pattern=r"^\.trt(?: |$)([\s\S]*)")
 async def translateme(trans):
     """ For .trt command, translate the given text using Google Translate. """
     translator = Translator()
@@ -425,17 +425,15 @@ async def translateme(trans):
     elif textx:
         message = textx.text
     else:
-        await trans.edit("`Give a text or reply to a message to translate!`")
-        return
+        return await trans.edit("`Give a text or reply to a message to translate!`")
 
     try:
         reply_text = translator.translate(deEmojify(message), dest=TRT_LANG)
     except ValueError:
-        await trans.edit("Invalid destination language.")
-        return
+        return await trans.edit("Invalid destination language.")
 
-    source_lan = LANGUAGES[f'{reply_text.src.lower()}']
-    transl_lan = LANGUAGES[f'{reply_text.dest.lower()}']
+    source_lan = LANGUAGES[f"{reply_text.src.lower()}"]
+    transl_lan = LANGUAGES[f"{reply_text.dest.lower()}"]
     reply_text = f"From **{source_lan.title()}**\nTo **{transl_lan.title()}:**\n\n{reply_text.text}"
 
     await trans.edit(reply_text)
@@ -444,7 +442,6 @@ async def translateme(trans):
             BOTLOG_CHATID,
             f"Translated some {source_lan.title()} stuff to {transl_lan.title()} just now.",
         )
-
 
 @register(pattern=".lang (trt|tts) (.*)", outgoing=True)
 async def lang(value):
